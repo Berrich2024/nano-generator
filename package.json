@@ -1,15 +1,13 @@
 {
-  "name": "nano-generator",
+  "name": "nanogenerator",
   "version": "1.0.0",
-  "description": "A bot that automates the process of collecting Nano from FreeNanoFaucet.",
-  "main": "src/nanoGenerator.js",
+  "description": "Nano faucet automation script using Puppeteer",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/nanoGenerator.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer": "^22.1.0" // Check for the latest version
-  },
-  "keywords": [],
-  "author": "Sylvain Lagonotte",
-  "license": "MIT"
+    "puppeteer": "^20.0.0",
+    "dotenv": "^16.0.0"
+  }
 }
